@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Explore It
+Bundle-SymbolicName: jp.strippers.eclipse.exploreit;singleton:=true
+Bundle-Version: 1.0.4
+Bundle-Activator: jp.strippers.eclipse.exploreit.Activator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime
+Eclipse-AutoStart: true
+Bundle-Vendor: THE STRIPPERS CO LTD.

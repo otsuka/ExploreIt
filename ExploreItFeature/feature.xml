@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="jp.strippers.eclipse.exploreit.feature"
+      label="Explore It"
+      version="1.0.4"
+      provider-name="THE STRIPPERS CO LTD."
+      plugin="jp.strippers.eclipse.exploreit"
+      os="win32"
+      ws="win32">
+
+   <description>
+      ナビゲーターやパッケージ・エクスプローラーからWindowsのエクスプローラを開くプラグイン。
+   </description>
+
+   <copyright>
+      Copyright 2007 THE STRIPPERS CO LTD.
+   </copyright>
+
+   <license>
+      合コンがあったら誘ってください。
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+   </requires>
+
+   <plugin
+         id="jp.strippers.eclipse.exploreit"
+         os="win32"
+         ws="win32"
+         download-size="0"
+         install-size="0"
+         version="1.0.4"
+         unpack="false"/>
+
+</feature>

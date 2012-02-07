@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.1"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="false"
+            id="jp.strippers.eclipse.exploreit.objectContribution"
+            objectClass="org.eclipse.core.runtime.IAdaptable">
+         <action
+               class="jp.strippers.eclipse.exploreit.action.Action"
+               enablesFor="1"
+               icon="icon/icon.gif"
+               id="jp.strippers.eclipse.exploreit.action"
+               label="%action.label"
+               menubarPath="additions"
+               tooltip="%action.tooltip"/>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="jp.strippers.eclipse.exploreit.preferences.PreferenceInitializer"/>
+   </extension>
+   <extension
+         id="jp.strippers.eclipse.exploreit.preferencePages"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="jp.strippers.eclipse.exploreit.preferences.PreferencePage"
+            id="jp.strippers.eclipse.exploreit.preferences1"
+            name="Explore It"/>
+   </extension>
+
+</plugin>
